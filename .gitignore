@@ -11,3 +11,6 @@ site/.hugo_build.lock
 
 # Node (if added later)
 node_modules/
+ 
+# Project-local tools (do not commit binaries)
+tools/
