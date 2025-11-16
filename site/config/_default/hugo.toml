@@ -2,7 +2,6 @@ baseURL = "https://pingpongclub.org/"
 title = "CCHS Ping Pong Club"
 languageCode = "en-us"
 enableRobotsTXT = true
-theme = "FixIt"
 
 [outputs]
   home = ["HTML", "RSS"]

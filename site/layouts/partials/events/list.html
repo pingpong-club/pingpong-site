@@ -8,7 +8,7 @@
   {{ with $endStr }}
     {{ $end := time . }}
     {{ if ge $end $now }}
-      {{ $upcoming = $upcoming | append .Page }}
+      {{ $upcoming = $upcoming | append $ }}
     {{ end }}
   {{ end }}
 {{ end }}
