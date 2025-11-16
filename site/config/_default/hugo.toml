@@ -1,0 +1,20 @@
+baseURL = "https://pingpongclub.org/"
+title = "CCHS Ping Pong Club"
+languageCode = "en-us"
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[permalinks]
+  events = "/events/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 20

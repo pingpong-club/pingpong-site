@@ -1,0 +1,8 @@
+# FixIt parameters; customize as needed.
+[params]
+  version = "1.0.0"
+
+[params.site]
+  title = "CCHS Ping Pong Club"
+
+# Footer customization is done by overriding the partial in layouts/partials/footer.html
