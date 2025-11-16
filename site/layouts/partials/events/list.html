@@ -1,14 +1,15 @@
 {{/* Build-time filtering for upcoming events */}}
-{{ $now := now }}
-{{ $candidates := where (where site.RegularPages "Type" "events") ".Params.active" "!=" false }}
+{{ $now := now.Format "2006-01-02" }}
+{{ $candidates := where .Pages ".Params.active" "!=" false }}
 
 {{ $upcoming := slice }}
 {{ range $candidates }}
-  {{ $endStr := .Params.end | default .Params.start }}
-  {{ with $endStr }}
-    {{ $end := time . }}
-    {{ if ge $end $now }}
-      {{ $upcoming = $upcoming | append $ }}
+  {{ $event := . }}
+  {{ $end := .Params.end | default .Params.start }}
+  {{ with $end }}
+    {{ $endStr := dateFormat "2006-01-02" . }}
+    {{ if ge $endStr $now }}
+      {{ $upcoming = $upcoming | append $event }}
     {{ end }}
   {{ end }}
 {{ end }}
