@@ -9,12 +9,12 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Check secret
+      - name: Check secret and trigger build
         run: |
           if [ -z "${{ secrets.NETLIFY_BUILD_HOOK_URL }}" ]; then
-            echo "NETLIFY_BUILD_HOOK_URL is not set. Add it in GitHub > Settings > Secrets and variables > Actions."
-            exit 1
+            echo "NETLIFY_BUILD_HOOK_URL is not set. Skipping build trigger."
+            echo "To enable: Add secret in GitHub > Settings > Secrets and variables > Actions."
+            exit 0
           fi
-      - name: Call Netlify build hook
-        run: |
+          echo "Triggering Netlify build..."
           curl -sS -X POST "${{ secrets.NETLIFY_BUILD_HOOK_URL }}"
