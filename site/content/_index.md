@@ -1,9 +1,9 @@
 ---
-title: "CCHS Ping Pong Club"
+title: "Ping Pong Club"
 description: "Welcome to the Concord-Carlisle High School Ping Pong Club"
 ---
 
-# Welcome to CCHS Ping Pong Club
+# Welcome to Ping Pong Club Jacob 0Gettings was here
 
 Join us for competitive and recreational table tennis at Concord-Carlisle High School.
 

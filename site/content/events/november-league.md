@@ -1,7 +1,7 @@
 ---
 title: "November League"
 start: 2025-11-01
-end: 2025-11-15
+end: 2025-12-15
 location: "High School Gym"
 active: true
 ---
