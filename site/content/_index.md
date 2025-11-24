@@ -3,7 +3,9 @@ title: "Ping Pong Club"
 description: "Welcome to the Concord-Carlisle High School Ping Pong Club"
 ---
 
-# Welcome to Ping Pong Club Jacob 0Gettings was here
+![Ping Pong Logo](https://upload.wikimedia.org/wikipedia/commons/5/58/Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg)
+
+# Welcome to Ping Pong Club
 
 Join us for competitive and recreational table tennis at Concord-Carlisle High School.
 
@@ -20,3 +22,9 @@ We're a student-run club dedicated to promoting the sport of table tennis. Wheth
 ## Contact
 
 Questions? Reach out to the club officers or check our events calendar.
+
+## Credits
+
+Jacob Gettings, lead website designer
+Jason Shang, asst. website designer
+
