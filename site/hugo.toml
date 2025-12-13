@@ -1,0 +1,73 @@
+baseURL = "https://pingpongclub.org"
+title = "Ping Pong Club"
+author = "jzhoushang"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+[params]
+    
+  showBlog = false
+
+  googleFonts = true
+
+  #[params.logo]
+  #  main = "img/logo/logo.svg"
+  #  alt = "Tella Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+  #  size = "h-14"
+
+  [params.site]
+    name = "Ping Pong Club"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "The CCHS Ping Pong Club"
+    meta_og_title = "Ping Pong Club"
+    meta_og_type = "website"
+    meta_og_url = "https://pingpongclub.org"
+
+[menu]
+
+  #[[menu.main]]
+  #  identifier = "products"
+  #  name = "Products"
+  #  url = "/products/"
+  #  weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/pingpong-club/pingpong-site"
+    pre = "<i class='icon-github text-2xl'></i>"
+    weight = 2
+
+  [[menu.footer]]
+    name = "Instagram"
+    url = "https://instagram.com/cchs_pingpong_club"
+    pre = "<i class='fa-brands fa-instagram text-2xl'></i>"
+    weight = 3
