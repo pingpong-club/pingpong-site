@@ -8,6 +8,7 @@ Thumbs.db
 site/public/
 site/resources/
 site/.hugo_build.lock
+site/node_modules/
 
 # Node (if added later)
 node_modules/
