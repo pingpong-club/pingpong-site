@@ -1,6 +1,7 @@
 name: Nightly Netlify Rebuild
 
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron: "15 7 * * *"
@@ -14,7 +15,7 @@ jobs:
           if [ -z "${{ secrets.NETLIFY_BUILD_HOOK_URL }}" ]; then
             echo "NETLIFY_BUILD_HOOK_URL is not set. Skipping build trigger."
             echo "To enable: Add secret in GitHub > Settings > Secrets and variables > Actions."
-            exit 0
+            exit 1
           fi
           echo "Triggering Netlify build..."
           curl -sS -X POST "${{ secrets.NETLIFY_BUILD_HOOK_URL }}"
