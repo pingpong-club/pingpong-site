@@ -13,13 +13,12 @@ enableRobotsTXT = true
 
   googleFonts = true
 
-  #[params.logo]
-  #  main = "img/logo/logo.svg"
-  #  alt = "Tella Logo"
-
+  [params.logo]
+    main = "img/logo/pingpong.png"
+    alt = "Ping Pong Club Logo"
+    size = "h-14"
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
-  #  size = "h-14"
 
   [params.site]
     name = "Ping Pong Club"
