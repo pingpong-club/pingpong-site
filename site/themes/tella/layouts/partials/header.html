@@ -4,7 +4,7 @@
             {{ range .Site.Menus.main }}
             <li class="p-2">
                 <a href="{{ .URL | safeURL }}">
-                    <span>{{ .Name }}</span>
+                    <span>{{ .Name }}{{ .Pre }}</span>
                 </a>
             </li>
             {{ end }}
@@ -27,10 +27,10 @@
             </div>
             <div class="text-lg">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL | safeURL }}"
-                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    {{ .Name }}
-                </a>
+                    <a href="{{ .URL | safeURL }}"
+                        class="menu-item duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                        {{ .Name }} {{ .Pre }}
+                    </a>
                 {{ end }}
             </div>
         </div>

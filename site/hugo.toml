@@ -42,10 +42,23 @@ enableRobotsTXT = true
   #  weight = 1
 
   [[menu.main]]
+    identifier = "register"
+    name = "Register"
+    url = "https://app.pingpongclub.org/"
+    pre = "<i class='text-sm fa-solid fa-arrow-up-right-from-square'></i>"
+    weight = 1
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 2
+
+  [[menu.main]]
+    parent = "about"
+    name = "Meet the Team"
+    url = "/team/"
+    weight = 1
 
   [[menu.main]]
     identifier = "contact"
