@@ -1,7 +1,8 @@
 [
     {
         "title": "Ping Pong Club",
-        "image": "img/front.jpg"
+        "image": "img/front.jpg",
+        "color": "font-bold text-white"
     },
     {
         "title": "Committed to diversity in table tennis",
