@@ -4,17 +4,36 @@
             {{ range .Site.Menus.main }}
             <li class="p-2">
                 <a href="{{ .URL | safeURL }}">
-                    <span>{{ .Name }}{{ .Pre }}</span>
+                    <span>{{ .Name }}</span>
                 </a>
             </li>
             {{ end }}
         </ul>
     </div>
     <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenuR"
+            style="flex: 1">
+            <div class="text-lg">
+                {{ range .Site.Menus.main }}
+                    {{ if (not .Params.left) }}
+                    <a href="{{ .URL | safeURL }}"
+                        class="menu-item duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60"
+                        style="margin-left: 2rem">
+                        {{ .Name }}
+                    </a>
+                    {{ end }}
+                {{ end }}
+            </div> 
+            <div class="text-lg lg:flex-grow">
+            </div>
+        </div>
+
+        <div class="flex items-center m-auto flex-shrink-0 text-xl text-grey-900 mr-6"
+            style="flex: 0 auto">
             <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}"
                     class="{{ .Site.Params.logo.size }} mr-3" src="{{ .Site.Params.logo.main | relURL }}"></a>
         </div>
+
         <div class="block lg:hidden">
             <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
                 <span class="top"></span>
@@ -22,15 +41,19 @@
                 <span class="bottom"></span>
             </div>
         </div>
-        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+        
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenuL"
+            style="flex: 1">
             <div class="text-lg lg:flex-grow">
             </div>
             <div class="text-lg">
                 {{ range .Site.Menus.main }}
+                    {{ if .Params.left }}
                     <a href="{{ .URL | safeURL }}"
                         class="menu-item duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                        {{ .Name }} {{ .Pre }}
+                        {{ .Name }}
                     </a>
+                    {{ end }}
                 {{ end }}
             </div>
         </div>

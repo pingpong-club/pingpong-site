@@ -45,26 +45,41 @@ enableRobotsTXT = true
     identifier = "register"
     name = "Register"
     url = "https://app.pingpongclub.org/"
-    pre = "<i class='text-sm fa-solid fa-arrow-up-right-from-square'></i>"
     weight = 1
+    [[menu.main.params]]
+      left = false
+
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 2
+    [[menu.main.params]]
+      left = false
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 2
+    weight = 3
+    [[menu.main.params]]
+      left = true
 
   [[menu.main]]
-    parent = "about"
-    name = "Meet the Team"
-    url = "/team/"
-    weight = 1
+    identifier = "club"
+    name = "Club"
+    url = "/club/"
+    weight = 4
+    [[menu.main.params]]
+      left = true
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 3
+    weight = 5
+    [[menu.main.params]]
+      left = true
 
   # Footer Menu
   [[menu.footer]]
