@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Register",
+        "description": "Register for our tournaments",
+        "icon": "fa-solid fa-user-plus",
+        "link": "https://app.pingpongclub.org/"
+    },
+    {
+        "title": "Club",
+        "description": "Meet our team",
+        "icon": "fa-solid fa-people-group",
+        "link": "/club/"
+    },
+    {
+        "title": "News",
+        "description": "Learn about new events",
+        "icon": "fa-solid fa-newspaper",
+        "link": "/news/"
+    }
+]

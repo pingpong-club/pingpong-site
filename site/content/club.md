@@ -4,15 +4,41 @@ description = "The Ping Pong Club"
 author = "Jason Shang"
 +++
 
-### Dylan Yang
+**Chairman** \
+Kevin Li
 
-*Founder and President*
+**CEO** \
+Dylan Yang
 
-### Jason Shang
+**Jr CEOs** \
+Marvin Yang \
+Jadon Odunze
 
-*Lead Website Developer*
+**Managers** \
+Adrien Guinebertiere \
+Jude Hedlund \
+Beulah Odunze
 
-### Jacob Gettings
+**Jr Management Team** \
+Darren Qiu \
+Sophia Kim \
+Olivia Kim
 
-*Webmaster*
+### Website
 
+**Lead Website Developer** \
+Jason Shang
+
+**Webmaster** \
+Jacob Gettings
+
+### Branding
+
+**Creative Director** \
+Penelope Clinard
+
+**Lead Merchandise Designer** \
+Pedro Nachbin
+
+**Social Media Manager** \
+Kyle Amouzgar
