@@ -14,7 +14,7 @@ jobs:
           if [ -z "${{ secrets.NETLIFY_BUILD_HOOK_URL }}" ]; then
             echo "NETLIFY_BUILD_HOOK_URL is not set. Skipping build trigger."
             echo "To enable: Add secret in GitHub > Settings > Secrets and variables > Actions."
-            exit 1
+            exit 0
           fi
           echo "Triggering Netlify build..."
           curl -sS -X POST "${{ secrets.NETLIFY_BUILD_HOOK_URL }}"
