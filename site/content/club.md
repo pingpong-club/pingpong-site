@@ -22,7 +22,8 @@ Beulah Odunze
 **Jr Management Team** \
 Darren Qiu \
 Sophia Kim \
-Olivia Kim
+Olivia Kim \
+Jake Wen
 
 ### Website
 
@@ -40,5 +41,7 @@ Penelope Clinard
 **Lead Merchandise Designer** \
 Pedro Nachbin
 
-**Social Media Manager** \
-Kyle Amouzgar
+**Social Media Managers** \
+Kyle Amouzgar \
+Brendan Leonardo \
+Silas Harmon

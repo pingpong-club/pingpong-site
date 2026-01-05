@@ -9,7 +9,8 @@ enableRobotsTXT = true
 
 [params]
     
-  showBlog = false
+  showBlog = true
+  mainSections = ["events"]
 
   googleFonts = true
 
@@ -56,12 +57,20 @@ enableRobotsTXT = true
     weight = 2
     [[menu.main.params]]
       left = false
+  
+  [[menu.main]]
+    identifier = "events"
+    name = "Past Events"
+    url = "/events/"
+    weight = 3
+    [[menu.main.params]]
+      left = false
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 4
     [[menu.main.params]]
       left = true
 
@@ -69,7 +78,7 @@ enableRobotsTXT = true
     identifier = "club"
     name = "Club"
     url = "/club/"
-    weight = 4
+    weight = 5
     [[menu.main.params]]
       left = true
 
@@ -77,7 +86,7 @@ enableRobotsTXT = true
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
     [[menu.main.params]]
       left = true
 
