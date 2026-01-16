@@ -18,3 +18,26 @@
     text-align: center;
     font-weight: 900;
 }
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.position-card {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    line-height: 0.9rem;
+    margin-bottom: 3rem;
+}
+
+.flex-nl {
+    flex-basis: 100%;
+    height: 0;
+}

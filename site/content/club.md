@@ -4,44 +4,36 @@ description = "The Ping Pong Club"
 author = "Jason Shang"
 +++
 
-**Chairman** \
-Kevin Li
-
-**CEO** \
-Dylan Yang
-
-**Jr CEOs** \
-Marvin Yang \
-Jadon Odunze
-
-**Managers** \
-Adrien Guinebertiere \
-Jude Hedlund \
-Beulah Odunze
-
-**Jr Management Team** \
-Darren Qiu \
-Sophia Kim \
-Olivia Kim \
-Jake Wen
+{{< outer-container >}}
+{{< position name="Kevin Li" position="Chairman" >}}
+{{< position name="Dylan Yang" position="CEO" >}}
+{{< flex-nl >}}
+{{< position name="Adrien Guinebertiere" position="Manager" >}}
+{{< position name="Jude Hedlund" position="Manager" >}}
+{{< position name="Beulah Odunze" position="Manager" >}}
+{{< position name="Jadon Odunze" position="Junior CEO" >}}
+{{< position name="Marvin Yang" position="Junior CEO" >}}
+{{< position name="Olivia Kim" position="Manager" >}}
+{{< position name="Sophia Kim" position="Manager" >}}
+{{< position name="Darren Qiu" position="Manager" >}}
+{{< position name="Jake Wen" position="Manager" >}}
+{{< div-end >}}
 
 ### Website
 
-**Lead Website Developer** \
-Jason Shang
-
-**Webmaster** \
-Jacob Gettings
+{{< outer-container >}}
+{{< position name="Jason Shang" position="Lead Website Developer" >}}
+{{< position name="Jacob Gettings" position="Webmaster" >}}
+{{< div-end >}}
 
 ### Branding
 
-**Creative Director** \
-Penelope Clinard
+{{< outer-container >}}
+{{< position name="Penelope Clinard" position="Creative Director" >}}
+{{< position name="Pedro Nachbin" position="Lead Merchandise Designer" >}}
+{{< flex-nl >}}
+{{< position name="Kyle Amouzgar" position="Social Media Manager" >}}
+{{< position name="Brendan Leonardo" position="Social Media Manager" >}}
+{{< position name="Silas Harmon" position="Social Media Manager" >}}
+{{< div-end >}}
 
-**Lead Merchandise Designer** \
-Pedro Nachbin
-
-**Social Media Managers** \
-Kyle Amouzgar \
-Brendan Leonardo \
-Silas Harmon

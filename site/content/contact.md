@@ -11,6 +11,8 @@ Concord, MA 01742
 
 For any inquiries, email us at [cchstabletennis@gmail.com](mailto:cchstabletennis@gmail.com).
 
+For website-specific inquires, email our webmaster at [webmaster@pingpongclub.org](mailto:webmaster@pingpongclub.org).
+
 
 ### Follow us
 

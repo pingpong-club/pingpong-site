@@ -67,10 +67,18 @@ enableRobotsTXT = true
       left = false
 
   [[menu.main]]
+    identifier = "shop"
+    name = "Shop"
+    url = "https://shop.pingpongclub.org/"
+    weight = 4
+    [[menu.main.params]]
+      left = true
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 4
+    weight = 5
     [[menu.main.params]]
       left = true
 
@@ -78,7 +86,7 @@ enableRobotsTXT = true
     identifier = "club"
     name = "Club"
     url = "/club/"
-    weight = 5
+    weight = 6
     [[menu.main.params]]
       left = true
 
@@ -86,7 +94,7 @@ enableRobotsTXT = true
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 6
+    weight = 7
     [[menu.main.params]]
       left = true
 
