@@ -115,3 +115,15 @@ enableRobotsTXT = true
     url = "https://instagram.com/cchs_pingpong_club"
     pre = "<i class='fa-brands fa-instagram text-2xl'></i>"
     weight = 3
+
+  [[menu.footer]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@CCTableTennis" 
+    pre = "<i class='fa-brands fa-youtube text-2xl'></i>"
+    weight = 4
+
+  [[menu.footer]]
+    name = "TikTok"
+    url = "https://www.tiktok.com/@cctabletennis"
+    pre = "<i class='fa-brands fa-tiktok'></i>"
+    weight = 5
