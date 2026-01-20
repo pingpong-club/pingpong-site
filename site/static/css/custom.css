@@ -41,3 +41,23 @@
     flex-basis: 100%;
     height: 0;
 }
+
+.question {
+    display: block;
+    padding: 1rem;
+    border: 0px solid #9ca3af;
+    border-bottom-width: 1px;
+}
+
+.question details .question-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+    opacity: 0;
+}
+
+.question details[open] .question-content {
+    max-height: 500px;
+    opacity: 1;
+}
+

@@ -1,0 +1,8 @@
+<div class="question">
+    <details>
+        <summary class="question-title">{{ .Get "title" }}</summary>
+        <div class="question-content">
+        {{ .Inner | .Page.RenderString }}
+        </div>
+    </details>
+</div>
