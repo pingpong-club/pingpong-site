@@ -9,6 +9,10 @@ author = "Jason Shang"
 
 We are hosting our annual Lunar New Year tournament! All proceeds will be donated to support Alzheimer's research at Mass General Hospital. Please [read more about Alzheimer's here](https://www.massgeneral.org/condition/alzheimers-disease).
 
+[Sign up now!](https://app.pingpongclub.org/)
+
+[See our fundraiser page here!](https://because.massgeneral.org/event/2026-cchs-ping-pong-tournament/e762616)
+
 ### Questions?
 
 {{< details title="Where is the event?" >}}
@@ -42,6 +46,8 @@ We welcome players of all experience! There will be a general-level tournament a
 The novice tournament will have restrictions.
 
 {{< /details >}}
+
+{{< rules >}}
 
 {{< details title="Will there be other things to do?" >}}
 

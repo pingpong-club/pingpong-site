@@ -61,3 +61,17 @@
     opacity: 1;
 }
 
+.banner-container {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.75em;
+    padding: 1em;
+    background-color: #eee;
+}
+
+.banner-container a {
+    text-decoration: underline;
+}
