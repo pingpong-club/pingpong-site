@@ -49,18 +49,6 @@
     border-bottom-width: 1px;
 }
 
-.question details .question-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
-    opacity: 0;
-}
-
-.question details[open] .question-content {
-    max-height: 500px;
-    opacity: 1;
-}
-
 .banner-container {
     display: flex;
     flex-direction: row;    
