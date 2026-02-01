@@ -1,0 +1,11 @@
+<div class="partner-container">
+{{ range .Site.Data.sponsors }}
+    {{ if .image }}
+<a class="partner-image" href="{{ .website }}">
+    <img class="partner-image" src="{{ .image }}" alt="{{ .name }}">
+</a>
+    {{ else }}
+    <h1 class="partner-name {{ .class }}">{{ .name }}</h1>
+    {{ end }}
+{{ end}}
+</div>

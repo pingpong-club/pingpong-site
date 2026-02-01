@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Mass General Brigham",
+        "image": "/img/mgb.png",
+        "website": "https://massgeneralbrigham.org"
+    },
+    {
+        "name": "Dana Farber",
+        "image": "/img/df.png",
+        "website": "https://dana-farber.org"
+    },
+    {
+        "name": "Kicks for Cancer",
+        "image": "/img/kick-logo.png",
+        "website": "https://kicksforcancer.org"
+    }
+]

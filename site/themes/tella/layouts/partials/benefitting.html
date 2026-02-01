@@ -1,0 +1,7 @@
+<div class="partner-container">
+{{ range .Site.Data.benefitting }}
+<a class="partner-image" href="{{ .website }}">
+    <img class="partner-image" src="{{ .image }}" alt="{{ .name }}">
+</a>
+{{ end}}
+</div>

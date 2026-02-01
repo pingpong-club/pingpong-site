@@ -28,6 +28,15 @@
         {{- partial "recent.html" . -}}
     </div>
     {{ end }}
+
+    <div class="mx-auto my-10 max-w-6xl">
+        <h2 class="text-4xl ml-2">Benefitting</h2>
+    {{- partial "benefitting.html" . -}}
+    </div>
+    <div class="mx-auto my-10 max-w-6xl">
+        <h2 class="text-4xl ml-2">Sponsors</h2>
+    {{- partial "sponsors.html" . -}}
+    </div>
     {{- partial "footer.html" . -}}
     <script src="{{ "/js/swiper-bundle.min.js" | relURL }}"></script>
     <script>

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Seoul Kitchen",
+        "image": "/img/seoul-kitchen.png",
+        "website": "https://eatseoulkitchen.com"
+    },
+    {
+        "name": "Karma",
+        "image": "/img/karma.avif",
+        "website": "https://karmaconcord.com"
+    },
+    {
+        "name": "Sichuan Palace",
+        "image": "/img/sichuan-palace.png",
+        "website": "https://sichuan-palace.com"
+    },
+    {
+        "name": "Walden Italian Kitchen",
+        "image": "/img/wik.png",
+        "website": "https://www.facebook.com/p/Walden-Italian-Kitchen-100063176382678/"
+    },
+    {
+        "name": "Spicepepper Garden",
+        "image": "/img/spg.png",
+        "website": "http://www.spicepeppergarden.com"
+    },
+    {
+        "name": "Mei Ya Asian Market 美亚超市",
+        "class": "mei-ya"
+    }
+]
