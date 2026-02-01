@@ -19,7 +19,7 @@ author = "Jason Shang"
 ### Technology
 
 {{< outer-container >}}
-{{< position name="Penelope Clinard" position="Statistician" >}}
+{{< position name="Penelope Clinard" position="Statistical Analyst" >}}
 {{< position name="Jacob Gettings" position="Webmaster" >}}
 {{< div-end >}}
 
@@ -28,11 +28,10 @@ author = "Jason Shang"
 {{< outer-container >}}
 {{< position name="Pedro Nachbin" position="Creative Director" >}}
 {{< position name="Jadon Odunze" position="Social Media Director" >}}
-{{< flex-nl >}}
+{{< position name="Connor Milliken" position="Video Editor" >}}
 {{< position name="Kyle Amouzgar" position="Social Media Manager" >}}
 {{< position name="Brendan Leonardo" position="Social Media Manager" >}}
 {{< position name="Silas Harmon" position="Social Media Manager" >}}
-{{< position name="Connor Milliken" position="Video Editor" >}}
 {{< div-end >}}
 
 ### Junior Leadership
@@ -43,3 +42,14 @@ author = "Jason Shang"
 {{< position name="Darren Qiu" position="Junior Manager" >}}
 {{< position name="Jake Wen" position="Junior Manager" >}}
 {{< div-end >}}
+
+### Auxiliary Staff
+
+{{< outer-container >}}
+{{< position name="Anna Bailey" position="Tournament Aide" >}}
+{{< position name="Sallie Wu" position="Tournament Aide" >}}
+{{< position name="Maggie Li" position="Tournament Aide" >}}
+{{< position name="Dongyi Yang" position="Tournament Aide" >}}
+{{< position name="Agata Podolska" position="Tournament Aide" >}}
+{{< div-end >}}
+
