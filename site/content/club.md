@@ -51,5 +51,7 @@ author = "Jason Shang"
 {{< position name="Maggie Li" position="Tournament Aide" >}}
 {{< position name="Dongyi Yang" position="Tournament Aide" >}}
 {{< position name="Agata Podolska" position="Tournament Aide" >}}
+{{< position name="Dagmar Hedlund" position="Tournament Aide" >}}
+{{< position name="Beatrice Crampton" position="Tournament Aide" >}}
 {{< div-end >}}
 
