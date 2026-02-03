@@ -59,8 +59,8 @@ html, body {
     flex-direction: row;    
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    font-size: 1.75em;
+    gap: clamp(0.25rem, 2vw, 2rem);
+    font-size: clamp(1em, 2vw, 1.75em);
     padding: 1em;
     background-color: #eee;
 }
@@ -77,7 +77,7 @@ html, body {
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
-    width: 72rem;
+    width: 100%;
 }
 
 .partner-image {
