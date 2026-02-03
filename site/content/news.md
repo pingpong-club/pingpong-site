@@ -13,6 +13,8 @@ We are hosting our annual Lunar New Year tournament! All proceeds will be donate
 
 [See our fundraiser page here!](https://because.massgeneral.org/event/2026-cchs-ping-pong-tournament/e762616)
 
+[Sign up for volunteering here!](https://www.signupgenius.com/go/10C0B4BACA823A3FCC52-61746745-lnysign#/)
+
 ### Questions?
 
 {{< details title="Where is the event?" >}}
