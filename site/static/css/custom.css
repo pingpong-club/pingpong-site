@@ -43,8 +43,13 @@ html, body {
 }
 
 .flex-nl {
+    display: inline-block;
+    box-sizing: border-box;
     flex-basis: 100%;
     height: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .question {
@@ -57,12 +62,16 @@ html, body {
 .banner-container {
     display: flex;
     flex-direction: row;    
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: clamp(0.25rem, 2vw, 2rem);
     font-size: clamp(1em, 2vw, 1.75em);
+    column-gap: 2em;
     padding: 1em;
     background-color: #eee;
+    align-content: space-between;
+
+    text-align: center;
 }
 
 .banner-container a {

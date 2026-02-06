@@ -27,15 +27,15 @@ Please note the school's Lunar New Year Festival will also be happening at this 
 
 {{< details title="When is the event?" >}}
 
-The event starts at 11:00 on February 7th. Please arrive early, as brackets are made at that time and there is no guarantee your spot will be saved if you arrive late!
+The event starts at 12:00 on February 7th. Please arrive early, as brackets are made at that time and there is no guarantee your spot will be saved if you arrive late!
 
-The tournament will start at 11:45, allowing 45 minutes of warm-up time.
+The tournament will start at 12:30, allowing 30 minutes of warm-up time.
 
 {{< /details >}}
 
 {{< details title="How do I sign up?" >}}
 
-Sign up at [our sign up page](https://app.pingpongclub.org) or walk in before 11:00 on the event day. Players will be in teams of three, so invite your friends!
+Sign up at [our sign up page](https://app.pingpongclub.org) or walk in before 12:00 on the event day. Players will be in teams of three, so invite your friends!
 
 Tickets are $5 or are included with shirts bought at [our shop](https://shop.pingpongclub.org).
 
