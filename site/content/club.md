@@ -43,7 +43,7 @@ author = "Jason Shang"
 {{< position name="Jake Wen" position="Junior Manager" >}}
 {{< div-end >}}
 
-### Auxiliary Staff
+### Auxiliary
 
 {{< outer-container >}}
 {{< position name="Anna Bailey" position="Tournament Aide" >}}
@@ -53,5 +53,8 @@ author = "Jason Shang"
 {{< position name="Agata Podolska" position="Tournament Aide" >}}
 {{< position name="Dagmar Hedlund" position="Tournament Aide" >}}
 {{< position name="Beatrice Crampton" position="Tournament Aide" >}}
+{{< position name="Thomas McKenna" position="Tournament Aide" >}}
+{{< position name="Elia Chandonnet" position="Tournament Aide" >}}
+{{< position name="Jaclyn Yeyinmen" position="Tournament Aide" >}}
 {{< div-end >}}
 
