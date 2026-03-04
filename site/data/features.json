@@ -1,20 +1,14 @@
 [
     {
-        "title": "Register",
-        "description": "Register for our tournaments",
-        "icon": "fa-solid fa-user-plus",
-        "link": "https://app.pingpongclub.org/"
+        "title": "$3k+",
+        "description": "Raised for Alzheimer's and cancer research"
     },
     {
-        "title": "Club",
-        "description": "Meet our team",
-        "icon": "fa-solid fa-people-group",
-        "link": "/club/"
+        "title": "100+",
+        "description": "People in regular attendance"
     },
     {
-        "title": "News",
-        "description": "Learn about new events",
-        "icon": "fa-solid fa-newspaper",
-        "link": "/news/"
+        "title": "4",
+        "description": "Tournaments held for charity"
     }
 ]
