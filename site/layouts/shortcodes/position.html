@@ -1,4 +1,6 @@
 <div class="position-card">
+    {{ if .Get "position" }}
     <strong>{{ .Get "position" }}</strong><br>
+    {{ end }}
     <span>{{ .Get "name"  }}</span>
 </div>

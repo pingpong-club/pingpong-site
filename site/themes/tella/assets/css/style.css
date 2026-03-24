@@ -4291,3 +4291,16 @@ video {
     border-color: rgb(75 85 99 / var(--tw-border-opacity));
   }
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    max-height: 30em;
+    width: auto;
+}

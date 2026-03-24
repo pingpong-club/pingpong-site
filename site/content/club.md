@@ -7,13 +7,13 @@ author = "Jason Shang"
 ### Leadership
 
 {{< outer-container >}}
-{{< position name="Kevin Li" position="Chairman" >}}
 {{< position name="Dylan Yang" position="Chief Executive Officer" >}}
 {{< position name="Adrien Guinebertiere" position="Chief Operations Officer" >}}
 {{< position name="Jude Hedlund" position="Chief Product Officer" >}}
 {{< position name="Jason Shang" position="Chief Technology Officer" >}}
-{{< position name="Beulah Odunze" position="Chief Marketing Officer" >}}
-{{< position name="Marvin Yang" position="Head of Human Resources" >}}
+{{< position name="Pedro Nachbin" position="Creative Director" >}}
+{{< position name="Marvin Yang" position="Tournament Coordinator" >}}
+{{< position name="Darren Qiu" position="Assistant Tournament Coordinator" >}}
 {{< div-end >}}
 
 ### Technology
@@ -26,7 +26,6 @@ author = "Jason Shang"
 ### Branding
 
 {{< outer-container >}}
-{{< position name="Pedro Nachbin" position="Creative Director" >}}
 {{< position name="Jadon Odunze" position="Social Media Director" >}}
 {{< position name="Connor Milliken" position="Video Editor" >}}
 {{< position name="Kyle Amouzgar" position="Social Media Manager" >}}
@@ -34,27 +33,26 @@ author = "Jason Shang"
 {{< position name="Silas Harmon" position="Social Media Manager" >}}
 {{< div-end >}}
 
-### Junior Leadership
+### Fundraising
 
 {{< outer-container >}}
-{{< position name="Olivia Kim" position="Junior Manager" >}}
-{{< position name="Sophia Kim" position="Junior Manager" >}}
-{{< position name="Darren Qiu" position="Junior Manager" >}}
-{{< position name="Jake Wen" position="Junior Manager" >}}
+{{< position name="Beulah Odunze" position="Fundraising Coordinator" >}}
+{{< position name="Olivia Kim" position="Fundraising Coordinator" >}}
+{{< position name="Sophia Kim" position="Fundraising Coordinator" >}}
 {{< div-end >}}
 
-### Auxiliary
+### Volunteers
+
+We would also like to recognize our tournament volunteers, who make our fundraising efforts possible.
 
 {{< outer-container >}}
-{{< position name="Anna Bailey" position="Tournament Aide" >}}
-{{< position name="Sallie Wu" position="Tournament Aide" >}}
-{{< position name="Maggie Li" position="Tournament Aide" >}}
-{{< position name="Dongyi Yang" position="Tournament Aide" >}}
-{{< position name="Agata Podolska" position="Tournament Aide" >}}
-{{< position name="Dagmar Hedlund" position="Tournament Aide" >}}
-{{< position name="Beatrice Crampton" position="Tournament Aide" >}}
-{{< position name="Thomas McKenna" position="Tournament Aide" >}}
-{{< position name="Elia Chandonnet" position="Tournament Aide" >}}
-{{< position name="Jaclyn Yeyinmen" position="Tournament Aide" >}}
+{{< position name="Anna Bailey" >}}
+{{< position name="Sallie Wu" >}}
+{{< position name="Jake Wen" >}}
+{{< position name="Agata Podolska" >}}
+{{< position name="Dagmar Hedlund" >}}
+{{< position name="Beatrice Crampton" >}}
+{{< position name="Maggie Li" >}}
+{{< position name="Dongyi Yang" >}}
 {{< div-end >}}
 
