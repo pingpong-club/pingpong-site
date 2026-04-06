@@ -23,7 +23,7 @@ The event will be held at Concord Carlisle High School.
 
 Please note the school's Lunar New Year Festival will also be happening at this time.
 
-{{< /details >}}
+{{< details-end >}}
 
 {{< details title="When is the event?" >}}
 
@@ -31,7 +31,7 @@ The event starts at 12:00 on February 7th. Please arrive early, as brackets are 
 
 The tournament will start at 12:30, allowing 30 minutes of warm-up time.
 
-{{< /details >}}
+{{< details-end >}}
 
 {{< details title="How do I sign up?" >}}
 
@@ -39,7 +39,7 @@ Sign up at [our sign up page](https://app.pingpongclub.org) or walk in before 12
 
 Tickets are $5 or are included with shirts bought at [our shop](https://shop.pingpongclub.org).
 
-{{< /details >}}
+{{< details-end >}}
 
 {{< details title="I'm new to ping pong. Will I have trouble?" >}}
 
@@ -47,7 +47,7 @@ We welcome players of all experience! There will be a general-level tournament a
 
 The novice tournament will have restrictions.
 
-{{< /details >}}
+{{< details-end >}}
 
 {{< rules >}}
 
@@ -57,6 +57,6 @@ Yes, this tournament is happening at the same time as Concord Carlisle High Scho
 
 More information about the events can be found [here](https://docs.google.com/document/d/1jzHlmdyWagvaQhX0d6WeV19W4ZFZ-BMZL0DGw2657Ow/edit?usp=sharing).
 
-{{< /details >}}
+{{< details-end >}}
 
 Any other questions? Email us [cchstabletennis@gmail.com](mailto:cchstabletennis@gmail.com).

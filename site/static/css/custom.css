@@ -3,6 +3,10 @@ html, body {
     height: 100%;
 }
 
+:root {
+    interpolate-size: allow-keywords;
+}
+
 .swiper-slide::before {
     content: "";
     position: absolute;
@@ -57,6 +61,16 @@ html, body {
     padding: 1rem;
     border: 0px solid #9ca3af;
     border-bottom-width: 1px;
+}
+
+.question details::details-content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease, content-visibility 0.5s ease allow-discrete;
+}
+
+.question details[open]::details-content {
+  height: auto;
 }
 
 .banner-container {
