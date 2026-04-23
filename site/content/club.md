@@ -4,25 +4,26 @@ description = "The Ping Pong Club"
 author = "Jason Shang"
 +++
 
-### Board of Directors
+### Executive Council
 
 {{< outer-container >}}
-{{< position name="Dylan Yang" position="Founder and Chair" >}}
-{{< position name="Adrien Guinebertiere" position="Vice Chair" >}}
-{{< position name="Jason Shang" position="Secretary and Technological Director" >}}
-{{< position name="Jude Hedlund" position="Board Member" >}}
-{{< position name="Penelope Clinard" position="Board Member" >}}
+{{< position name="Dylan Yang" position="Founder and President" >}}
+{{< position name="Adrien Guinebertiere" position="Vice President" >}}
+{{< position name="Jason Shang" position="Technical Director" >}}
+{{< position name="Jude Hedlund" position="Council Member" >}}
+{{< position name="Penelope Clinard" position="Council Member" >}}
 {{< div-end >}}
 
-### Leadership
+### Other Leadership
 
 {{< outer-container >}}
-{{< position name="Pedro Nachbin" position="Creative Director" >}}
 {{< position name="Marvin Yang" position="Social Media Director" >}}
+{{< position name="Pedro Nachbin" position="Creative Director" >}}
 {{< position name="Jacob Gettings" position="Server Administrator" >}}
 {{< div-end >}}
 
 {{< details title="Concord-Carlisle Chapter" >}}
+
 ### Managers
 {{< outer-container >}}
 {{< position name="Darren Qiu" position="Manager" >}}
@@ -33,7 +34,7 @@ author = "Jason Shang"
 ### Branding
 
 {{< outer-container >}}
-{{< position name="Jadon Odunze" position="Branding Director" >}}
+{{< position name="Jadon Odunze" position="Branding Coordinator" >}}
 {{< position name="Connor Milliken" position="Video Editor" >}}
 {{< div-end >}}
 
