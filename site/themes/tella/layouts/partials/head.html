@@ -1,16 +1,16 @@
 {{- partial "analytics" . -}}
 <meta charset="utf-8">
 <title>{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/x-icon" sizes="any" href="/favicon.ico">
-<link rel="icon" type="image/svg" href="/favicon.svg">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="icon" sizes="192x192" href="/android-chrome-192x192.png">
-<link rel="icon" sizes="512x512" href="/android-chrome-512x512.png">
-<link rel="manifest" href='{{ "site.webmanifest" | relURL }}'>
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
 {{ if .Site.Params.icon.fontawesome }}
 <link href='{{ "/css/fa6.min.css" | relURL }}' rel="stylesheet" type="text/css">
 {{ end }}
@@ -24,5 +24,6 @@
 {{ if .IsHome }}
 <link rel="stylesheet" href='{{ "/css/swiper-bundle.min.css" | relURL }}'>
 {{ end }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"><link href='{{ "/css/style.min.css" | relURL }}' rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+<link href='{{ "/css/style.min.css" | relURL }}' rel="stylesheet" type="text/css">
 <link rel="stylesheet" href='{{ "/css/custom.css" | relURL }}'>
